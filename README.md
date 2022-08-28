@@ -10,6 +10,9 @@ The [Guide to mint a Generative Token](https://fxhash.xyz/articles/guide-mint-ge
 <b>p5.js</b> is a JavaScript library for creative coding </br>
 More infos here : https://p5js.org/
 
+## NFT
+
+https://www.fxhash.xyz/generative/17873
 
 ## CREATIVE COMMONS LICENSE
 
