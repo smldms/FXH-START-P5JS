@@ -68,3 +68,7 @@ async function progressShow() {
     document.getElementById("progress").style.display = 'block';
     await new Promise((fn => setTimeout(fn, 1)));
 }
+
+////////////Mouse mapping
+  let mouseXFactor = map(mouseX, 0, width, 0.05, 1);
+  let mouseYFactor = map(mouseY, 0, height, 0.05, 1);
