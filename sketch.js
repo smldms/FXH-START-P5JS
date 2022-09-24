@@ -20,6 +20,7 @@ let gen;
 function setup() {
     randomSeed(seed);
     noiseSeed(seed);
+    pixelDensity(pD);
     cnv = createCanvas(globalSize * format.ww, globalSize * format.hh);
     cnv.parent('fullScreen');
     background(10);
