@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 0.8em;
+  /* overflow: hidden; */
 }
 
 canvas {
@@ -38,13 +39,25 @@ canvas {
   max-width: 100%;
 }
 
+#fullScreen svg {
+  object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#fullScreen .p5Canvas {
+  object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
+}
+
 #progress {
   color: rgb(249, 249, 249);
   opacity: 0.75;
   background-color: rgb(23, 23, 23);
-  border-radius: 25px;
+  border-radius: 10px;
   padding-top: 0%;
-  width: 33.3%;
+  width: auto;
   height: auto;
   position: fixed;
   text-align: center;
@@ -58,16 +71,18 @@ canvas {
 
 #progress h2 {
   display: block;
+  font-size: 0.9rem;
   color: rgb(239, 239, 239);
   margin: 5%
 }
 
 #progress p {
+  font-size: 0.75rem;
   display: block;
   margin: 5%
 }
 
 #progress hr {
-  width: 100%;
+  width: 75%;
   margin-bottom:10%
 }
