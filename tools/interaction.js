@@ -31,7 +31,10 @@ function keyTyped() {
     // }
     /////////SAVE
     else if (keyCode === 83) { // if "s" is pressed
-        save(myTitle + "_" + fxhash + '.png');
+        save(myTitle + "_" + palette.name + "_" + fxhash + '.png');
+    }
+    else if (keyCode === 86) { // if "v" is pressed
+    save(myTitle + "_" + fxhash + '.svg');
     }
 }
 
