@@ -1,5 +1,5 @@
 ////////////////INFO & FEATURES
-let myTitle = "FXH START";
+let myTitle = "P5 FOR FXH";
 let present = '<h2>' + myTitle + '</h2><h3>by smldms</h3><hr>'
 console.log(myTitle + " | smldms 2022.08"), console.log("HASH: " + fxhash);
 console.log(window.$fxhashFeatures = {
@@ -25,13 +25,5 @@ function setup() {
     cnv.parent('fullScreen');
     background(10);
     rectMode(CENTER)
+    rect(width/2, height/2, 50)
 }
-
-function draw() {
-    noStroke()
-    fill(255)
-    ellipse(width/2, height/2, height/4)
-        // fxpreview()
-        // saver()
-        // timer()
-    }
